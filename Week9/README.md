@@ -18,6 +18,7 @@ I created 3 honeypots: 2 dionaea with http and one shockpot.
 1 dionaea got attacked 1055 times last I checked while the other got attacked 81 times.
 Shockpot still stands at 0
 Top 5 attacked ports were: port 23, 80, 445, 8088,3389
+- [x] GIF Walkthrough:<img src='https://i.imgur.com/bYKcLVt.gif' title='Attack_map' width='' alt='Attack_map' />
 
 ## Unresolved questions
 My top 5 attack signatures remained blank and I want to know why.
